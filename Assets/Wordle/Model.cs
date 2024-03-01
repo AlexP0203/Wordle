@@ -32,7 +32,7 @@ public class Model : MonoBehaviour
         importWords = myTextAsset.ToString().Trim().Split('\n');
         word = (importWords[Random.Range(0, importWords.Length)]).Trim();
         wordArray = word.ToCharArray();
-        Debug.Log(word);
+        Debug.Log(word);       //prints the correct word in the console.
     }
 
     public void playerGuess(string playerGuess)
